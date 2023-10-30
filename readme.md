@@ -1,4 +1,4 @@
-# <a href="https://open-neuromorphic.org">Open Neuromorphic</a> (ONM) Website Docs
+# Blockspace Website Docs
 
 - [Build and Deploy](readme.md#-build-and-deploy)
 - [Content Guidelines](content.md)
@@ -131,5 +131,3 @@ If your problem or idea has not been addressed yet, feel free to [open a new iss
 Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
 
 **Code License:** Released under the [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) license.
-
-# whereissam.github.io
