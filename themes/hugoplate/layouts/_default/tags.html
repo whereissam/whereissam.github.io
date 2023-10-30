@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1>All Tags</h1>
+<ul>
+  {{ range .Data.Terms.ByCount.Reverse }}
+    <li>
+      <a href="{{ "/tags/" | relLangURL }}{{ .Name | urlize }}">{{ .Name }}</a> ({{ .Count }})
+    </li>
+  {{ end }}
+</ul>
+{{ end }}

@@ -1,0 +1,67 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "首頁"
+url = "/"
+weight = 1
+
+[[main]]
+name = "最新活動"
+url = "/events/"
+weight = 2
+
+[[main]]
+name = "文章"
+url = "/blog/"
+weight = 3
+
+[[main]]
+name = "關於"
+hasChildren = true
+weight = 4
+
+[[main]]
+parent = "關於"
+name = "關於區塊空間"
+url = "/about/"
+weight = 5
+
+[[main]]
+parent = "關於"
+name = "BlockSpace 團隊"
+url = "/team/"
+weight = 6
+
+
+# [[main]]
+# parent = "About"
+# name = "Team"
+# url = "/team/"
+
+
+# footer menu
+[[footer]]
+name = "快速連結"
+hasChildren = true
+
+[[footer]]
+parent = "快速連結"
+name = "BlockSpace 團隊"
+url = "/team/"
+weight = 2
+
+[[footer]]
+parent = "快速連結"
+name = "加入 Telegram"
+url = "https://t.me/theblockspaces"
+weight = 3
+
+# [[footer]]
+# parent = "Quick Links"
+# name = "How to Get Involved"
+# url = "/getting-involved/"
+# weight = 1
+
+
+
