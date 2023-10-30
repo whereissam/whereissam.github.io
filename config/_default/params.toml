@@ -29,7 +29,7 @@ custom_script = ""
 # copyright
 copyright = "©2022 - 2023 Blockspace"
 
-homepageTitle = "Explore Blockchain"
+homepageTitle = "區塊空間 - 你認識區塊鏈的第一個入口"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
