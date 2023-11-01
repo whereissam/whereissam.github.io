@@ -35,10 +35,9 @@
 
 
 <!-- google analytics -->
-{{ if and site.Config.Services.GoogleAnalytics.ID (ne site.Config.Services.GoogleAnalytics.ID "G-34CVLGCC2X") }}
-  {{ template "_internal/google_analytics.html" . }}
+{{ if not .Site.IsServer }}
+{{ template "_internal/google_analytics_async.html" . }}
 {{ end }}
-
 
 <!-- google tag manager -->
 {{/* partialCached "gtm.html" . */}}
