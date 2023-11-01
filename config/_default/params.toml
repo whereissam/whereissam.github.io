@@ -24,12 +24,14 @@ contact_form_action = "#" # contact form works with [https://airform.io/] or [ht
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
+google_analytics = ""
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
-custom_script = ""
+custom_script = "G-34CVLGCC2X"
 # copyright
 copyright = "©2022 - 2023 Blockspace"
 
 homepageTitle = "區塊空間 - 你認識區塊鏈的第一個入口"
+googleAnalytics = "G-34CVLGCC2X"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -94,14 +96,9 @@ map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
 
-
 # Subscription
 [subscription]
 enable = false
 # mailchimp subsciption
 #mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 #mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
-
-[services]
-  [services.googleAnalytics]
-    ID = "G-34CVLGCC2X"
