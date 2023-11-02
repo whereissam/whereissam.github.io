@@ -10,6 +10,8 @@
 
     {{ partial "structured-markup/jsonld.html" . }}
 
+    {{ partial "analytics.html" . }}
+
   {{ if .HasShortcode "chart" }}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.0/plotly-basic.min.js" integrity="sha512-TiY/d3GpuSKgQYgnqegSfdqlXp6ebBvi6A47mFTMSpZM7BMbvfkkvU/SlDzZHs9lWqF+BteevHlqgauHhLLbIA==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
   {{ end }}

@@ -60,6 +60,9 @@ show_categories = false
   [services.googleAnalytics]
     ID = 'G-34CVLGCC2X'
 
+[params.google.analytics]
+id = "G-34CVLGCC2X"
+
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
