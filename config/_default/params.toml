@@ -2,8 +2,8 @@
 # favicon
 favicon = "images/avatar.png"
 # logo
-logo = "images/logo-black.svg"
-logo_darkmode = "images/logo-white.svg"
+logo = "images/brand-black.svg"
+logo_darkmode = "images/brand-white.svg"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "250px"
